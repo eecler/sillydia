@@ -28,7 +28,7 @@ pause
 echo hey, do you want to talk with me?
 echo.
 echo 1.) Sure!
-echo 2.) No, not today
+echo 2.) not today :(
 echo.
 set /p var=Set command
 if %var%==1 goto Sure
@@ -37,7 +37,7 @@ if %var%==2 goto No
 echo HOORAY!!!
 cls
 pause
-echo Ok,let' talk... What' going on outside oyour windows
+echo Ok,let' talk... What' going on outside your windows
 echo.
 echo 1.) Rainy
 echo 2.) Sunny
